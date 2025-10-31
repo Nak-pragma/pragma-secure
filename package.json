@@ -1,18 +1,18 @@
 {
-  "name": "pragma-secure",
-  "version": "1.0.4",
-  "main": "server.js",
+  "name": "pragma-secure-server",
+  "version": "1.0.0",
   "type": "module",
+  "main": "server_secure_v1.0.1.js",
   "scripts": {
-    "start": "node server_v1.0.0.js"
+    "start": "node server_secure_v1.0.1.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "node-fetch": "^3.3.2",
-    "openai": "^4.55.0",
-    "marked": "^12.0.1",
-    "isomorphic-dompurify": "^1.0.0",
-    "cors": "^2.8.5"
+    "openai": "^4.104.0",
+    "marked": "^10.0.0",
+    "isomorphic-dompurify": "^2.5.0",
+    "uuid": "^9.0.1"
   }
 }
-
